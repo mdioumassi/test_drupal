@@ -9,7 +9,7 @@ _core:
 id: test_drupal_page_title
 theme: test_drupal
 region: content
-weight: -50
+weight: -6
 provider: null
 plugin: page_title_block
 settings:

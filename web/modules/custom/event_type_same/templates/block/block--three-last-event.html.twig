@@ -1,0 +1,12 @@
+{% if items is not empty %}
+  <div style="border: solid 2px ">
+    <h2>Les 3 derniers evenements</h2>
+    <ul>
+      {% for item in items %}
+        <li>
+          <h4>{{ item.titre }}</h4>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+{% endif %}

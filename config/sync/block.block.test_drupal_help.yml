@@ -11,7 +11,7 @@ _core:
 id: test_drupal_help
 theme: test_drupal
 region: content
-weight: -30
+weight: -4
 provider: null
 plugin: help_block
 settings:

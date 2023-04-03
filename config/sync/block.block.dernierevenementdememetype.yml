@@ -1,0 +1,28 @@
+uuid: 3d5b25dc-3c0a-413a-b93e-6b5ae71f2551
+langcode: fr
+status: true
+dependencies:
+  module:
+    - event_type_same
+    - node
+  theme:
+    - test_drupal
+id: dernierevenementdememetype
+theme: test_drupal
+region: content
+weight: -7
+provider: null
+plugin: event_type_same_last
+settings:
+  id: event_type_same_last
+  label: 'Dernier evenement de même type'
+  label_display: '0'
+  provider: event_type_same
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      event: event

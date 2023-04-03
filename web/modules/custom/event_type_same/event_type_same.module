@@ -1,0 +1,21 @@
+<?php
+
+/**
+ * @file
+ * Primary module hooks for event_type_same module.
+ *
+ * @DCG
+ * This file is no longer required in Drupal 8.
+ * @see https://www.drupal.org/node/2217931
+ */
+function event_type_same_theme($existing, $type, $theme, $path): array {
+  return [
+    'event_type_same_block' => [
+      'template' => 'block--three-last-event',
+      'path' => 'modules/custom/event_type_same/templates/block',
+      'variables' => [
+        'items' => [],
+      ],
+    ],
+  ];
+}

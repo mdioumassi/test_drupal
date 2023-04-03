@@ -9,7 +9,7 @@ _core:
 id: test_drupal_local_tasks
 theme: test_drupal
 region: content
-weight: -40
+weight: -5
 provider: null
 plugin: local_tasks_block
 settings:
