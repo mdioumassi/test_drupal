@@ -1,0 +1,24 @@
+# FROM mglaman/drupal-check/phpstan/deprecation_testing.neon
+parameters:
+	tmpDir: '/var/www/html/web/../tmp/upgrade_status/phpstan'
+	drupal:
+		drupal_root: '/var/www/html/web'
+	customRulesetUsed: true
+	ignoreErrors:
+		- '#\Drupal calls should be avoided in classes, use dependency injection instead#'
+		- '#Plugin definitions cannot be altered.#'
+		- '#Missing cache backend declaration for performance.#'
+		- '#Plugin manager has cache backend specified but does not declare cache tags.#'
+
+	# FROM mglaman/drupal-check/phpstan/base_config.neon
+	reportUnmatchedIgnoredErrors: false
+	excludePaths:
+		- */tests/Drupal/Tests/Listeners/Legacy/*
+		- */tests/fixtures/*.php
+		- */settings*.php
+		- */bower_components/*
+		- */node_modules/*
+
+includes:
+	- '/var/www/html/vendor/mglaman/phpstan-drupal/extension.neon'
+	- '/var/www/html/vendor/phpstan/phpstan-deprecation-rules/rules.neon'

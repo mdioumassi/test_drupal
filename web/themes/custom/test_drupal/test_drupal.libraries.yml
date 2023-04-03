@@ -1,0 +1,7 @@
+main:
+  version: 1.x
+  css:
+    theme:
+      assets/css/test_drupal.css: {}
+  js:
+    assets/js/test_drupal.js: {}

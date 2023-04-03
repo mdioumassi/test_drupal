@@ -1,0 +1,17 @@
+uuid: 4bcbc533-aff9-4b90-8890-0fbe4406007c
+langcode: fr
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Événement
+type: event
+description: ''
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: false

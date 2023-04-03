@@ -1,0 +1,20 @@
+uuid: d389007a-2488-471b-be94-fd280406f327
+langcode: fr
+status: true
+dependencies:
+  theme:
+    - test_drupal
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: test_drupal_local_actions
+theme: test_drupal
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Actions d''administration principales'
+  label_display: '0'
+  provider: core
+visibility: {  }

@@ -1,0 +1,19 @@
+uuid: 6d70a813-2c3a-4920-b52e-538ad4b50875
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_string_long
+    - node.type.event
+id: node.event.field_string_long
+field_name: field_string_long
+entity_type: node
+bundle: event
+label: 'Résumé et introduction'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

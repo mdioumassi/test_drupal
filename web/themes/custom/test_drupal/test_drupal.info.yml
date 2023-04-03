@@ -1,0 +1,12 @@
+name: Test Drupal
+type: theme
+description: 'An empty theme with classy as base. Feel free to change its base theme.'
+core_version_requirement: ^8 || ^9
+libraries:
+  - test_drupal/main
+base theme: classy
+regions:
+  header: Header
+  content: Content
+  sidebar_first: 'Sidebar first'
+  footer: Footer

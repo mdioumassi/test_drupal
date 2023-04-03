@@ -1,0 +1,11 @@
+_core:
+  default_config_hash: IQjf_ytthngZTAk_MU8-74VecArWD3G5g0oEH6PM6GA
+langcode: fr
+toolbar_items:
+  - devel.cache_clear
+  - devel.container_info.service
+  - devel.route_info.item
+  - devel.entity_info_page
+  - devel.run_cron
+  - devel.admin_settings_link
+  - devel.route_info

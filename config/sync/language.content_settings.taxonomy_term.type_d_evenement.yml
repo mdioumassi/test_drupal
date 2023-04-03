@@ -1,0 +1,11 @@
+uuid: ff51c7e8-2928-42b8-ad99-524505cb20b1
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.type_d_evenement
+id: taxonomy_term.type_d_evenement
+target_entity_type_id: taxonomy_term
+target_bundle: type_d_evenement
+default_langcode: site_default
+language_alterable: false

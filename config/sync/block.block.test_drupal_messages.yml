@@ -1,0 +1,22 @@
+uuid: 1ad3fd95-215b-44d5-8745-42842c8f3e26
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - test_drupal
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: test_drupal_messages
+theme: test_drupal
+region: header
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Messages de statut'
+  label_display: '0'
+  provider: system
+visibility: {  }
